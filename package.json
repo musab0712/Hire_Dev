@@ -1,0 +1,19 @@
+{
+  "name": "hire_dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/musab0712/Hire_Dev.git"
+  },
+  "author": "Musab Hassan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/musab0712/Hire_Dev/issues"
+  },
+  "homepage": "https://github.com/musab0712/Hire_Dev#readme"
+}
