@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/musab0712/Hire_Dev/issues"
   },
-  "homepage": "https://github.com/musab0712/Hire_Dev#readme"
+  "homepage": "https://github.com/musab0712/Hire_Dev#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.1"
+  }
 }
