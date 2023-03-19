@@ -8,7 +8,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 main().catch(err => console.log(err));
 async function main() {
-    await mongoose.connect('mongodb://127.0.0.1:27017/HireDev');
+    await mongoose.connect('mongodb+srv://musabhassan1999:Musab12@cluster0.soooqfv.mongodb.net/HireDev');
 }
 
 const hireDevSchema = new mongoose.Schema({
@@ -34,7 +34,6 @@ app.get("/contact", (req, res) => {
 });
 
 app.post("/contact", (req, res) => {
-    console.log(req.body.msg);
     const user = new Data({
         name: req.body.name,
         email: req.body.email4,
@@ -69,21 +68,3 @@ app.get("/UXdesign", (req, res) => {
 app.listen(process.env.PORT || 3000, ()=>{
     console.log("Server is running");
 });
-
-
-
-// ...
-// const requestListener = function (req, res) {
-//     fs.readFile(__dirname + "/index.html")
-//         .then(contents => {
-//             res.setHeader("Content-Type", "text/html");
-//             res.writeHead(200);
-//             res.end(contents);
-//         })
-//         .catch(err => {
-//             res.writeHead(500);
-//             res.end(err);
-//             return;
-//         });
-// };
-// ...

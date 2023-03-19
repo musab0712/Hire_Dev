@@ -5,7 +5,7 @@
 
 /* https://colorhunt.co/palette/edf1d69dc08b60996640513b */
 #my-navbar{
-    background-color: #BAD7E9;
+    background-color: #52cffe;
     color: black;
     padding: 0 15%;
   
@@ -25,10 +25,15 @@
 .nav-link{
     font-size: 1.3rem;
 }
+.nav-item a:hover{
+color: #c777b9;
+    font-size: 1.4rem;
+}
 
 
 #title {
-    background-color: #2B3467;
+    /* background-color: #2B3467; */
+    background-image: radial-gradient(circle, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
     color: #fff;
     padding: 12% 15% 8%;
 }
@@ -317,6 +322,7 @@ background-color: #8fbedb;}
     background-color: #2B3467;
     padding: 12% 15% 8%;
     text-align: center;
+    color: #FCFFE7;
 }
 
 #dev-offers{
