@@ -47,6 +47,9 @@ color: #c777b9;
     margin: 5% 3% 5% 0;
     /* background-color: #BAD7E9; */
 }
+.title-img {
+    width: 80%;
+}
 @media (max-width : 1018px) {
     #title {
         text-align: center;
